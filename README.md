@@ -34,11 +34,11 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 ![gold ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/GoldOreRecipe.PNG)
 ![gold ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/GoldSmeltRecipe.PNG)
 ![redstone ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneOreRecipe.PNG)
-![redstone ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneSmeltecipe.PNG)
+![redstone ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneSmeltRecipe.PNG)
 ![lapis ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisOreRecipe.PNG)
-![lapis ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisSmeltecipe.PNG)
+![lapis ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisSmeltRecipe.PNG)
 ![diamond ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondOreRecipe.PNG)
-![diamond ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondSmeltecipe.PNG)
+![diamond ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondSmeltRecipe.PNG)
 
 ## Installation using Prism Launcher
 
