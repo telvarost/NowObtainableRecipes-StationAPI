@@ -22,6 +22,10 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Smeltable ores: coal, iron, gold, redstone, lapis, and diamond
 * Craftable fire (this also thereby allows crafting chainmail)
 
+## Images of recipes
+
+![coal ore recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/CoalOreRecipe.PNG)
+
 ## Installation using Prism Launcher
 
 1. Download an instance of Babric for Prism Launcher: https://github.com/babric/prism-instance
