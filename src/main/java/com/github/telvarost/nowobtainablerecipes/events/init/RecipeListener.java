@@ -39,11 +39,8 @@ public class RecipeListener {
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
             SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.COAL_ORE.asItem(), 1), new ItemInstance(ItemBase.coal, 1));
-            SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.IRON_ORE.asItem(), 1), new ItemInstance(ItemBase.ironIngot, 1));
-            SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.GOLD_ORE.asItem(), 1), new ItemInstance(ItemBase.goldIngot, 1));
             SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.REDSTONE_ORE.asItem(), 1), new ItemInstance(ItemBase.redstoneDust, 1));
             SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.LAPIS_LAZULI_ORE.asItem(), 1), new ItemInstance(ItemBase.dyePowder, 1, 4));
-            SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.DIAMOND_ORE.asItem(), 1), new ItemInstance(ItemBase.diamond, 1));
         }
 
         if (type == RecipeRegisterEvent.Vanilla.CRAFTING_SHAPELESS.type()) {

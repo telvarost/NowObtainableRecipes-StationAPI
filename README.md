@@ -19,7 +19,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Craftable grass blocks
 * Craftable cobwebs
 * Craftable ores: coal, iron, gold, redstone, lapis, and diamond
-* Smeltable ores: coal, iron, gold, redstone, lapis, and diamond
+* Smeltable ores: coal, redstone, and lapis (iron, gold, and diamond already in game)
 * Craftable fire (this also thereby allows crafting chainmail)
 
 ## Images of recipes
