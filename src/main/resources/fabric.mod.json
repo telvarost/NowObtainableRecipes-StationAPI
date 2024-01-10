@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "NowObtainableRecipes",
-  "description": "Adds some quality of life changes and fixes some graphical issues.",
+  "description": "A StationAPI mod for Minecraft Beta 1.7.3 that adds recipes for normally unobtainable items.",
   "authors": [
     "Telvarost"
   ],
