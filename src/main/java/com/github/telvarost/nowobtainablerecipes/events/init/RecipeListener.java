@@ -38,7 +38,6 @@ public class RecipeListener {
                     recipes.set(i, new ShapedRecipe(3, 3, inputArray, new ItemInstance(BlockBase.WOOD_STAIRS.asItem(), 6)));
                 }
 
-//                      * Modern Fence recipe
                 if (recipe.getOutput().itemId == BlockBase.COBBLESTONE_STAIRS.asItem().id) {
                     ItemInstance[] inputArray = new ItemInstance[9];
                     inputArray[0] = new ItemInstance(BlockBase.COBBLESTONE.asItem(), 1);
