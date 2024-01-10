@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "nowobtainablerecipes",
+  "version": "${version}",
+
+  "name": "NowObtainableRecipes",
+  "description": "Adds some quality of life changes and fixes some graphical issues.",
+  "authors": [
+    "Telvarost"
+  ],
+  "contact": {
+    "issues": "https://github.com/telvarost/NowObtainableRecipes-StationAPI/issues",
+    "homepage": "https://github.com/telvarost/NowObtainableRecipes-StationAPI/",
+    "sources": "https://github.com/telvarost/NowObtainableRecipes-StationAPI/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/nowobtainablerecipes/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "com.github.telvarost.nowobtainablerecipes.events.init.RecipeListener"
+    ],
+    "stationapi:event_bus_client": [
+      "com.github.telvarost.nowobtainablerecipes.events.init.ClientInitListener"
+    ],
+    "stationapi:event_bus_server": [
+    ],
+    "gcapi": [
+      "com.github.telvarost.nowobtainablerecipes.Config"
+    ]
+  },
+  "mixins": [
+    "nowobtainablerecipes.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
