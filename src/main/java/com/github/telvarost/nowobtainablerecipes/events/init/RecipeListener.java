@@ -32,9 +32,6 @@ public class RecipeListener {
             CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.REDSTONE_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.redstoneDust);
             CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.LAPIS_LAZULI_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', new ItemInstance(ItemBase.dyePowder, 1, 4));
             CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.DIAMOND_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.diamond);
-
-//            CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.WOOD_STAIRS.asItem(), 6), "X  ", "XX ", "XXX", 'X', BlockBase.WOOD);
-//            CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.COBBLESTONE_STAIRS.asItem(), 6), "X  ", "XX ", "XXX", 'X', BlockBase.COBBLESTONE);
         }
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
@@ -46,6 +43,7 @@ public class RecipeListener {
         if (type == RecipeRegisterEvent.Vanilla.CRAFTING_SHAPELESS.type()) {
             CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.FIRE.asItem(), 3), ItemBase.flintAndSteel);
             CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.GRASS.asItem(), 1), BlockBase.DIRT, ItemBase.seeds);
+            CraftingRegistry.addShapelessRecipe(new ItemInstance(ItemBase.apple, 1), ItemBase.sugar, ItemBase.seeds, BlockBase.SAPLING);
        }
     }
 }
