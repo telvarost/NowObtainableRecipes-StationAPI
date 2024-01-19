@@ -21,6 +21,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Craftable ores: coal, iron, gold, redstone, lapis, and diamond
 * Smeltable ores: coal, redstone, and lapis (iron, gold, and diamond already in game)
 * Craftable fire (this also thereby allows crafting chainmail)
+* Craftable apples
 
 ## Images of recipes
 
@@ -39,6 +40,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 ![lapis ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisSmeltRecipe.PNG)
 ![diamond ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondOreRecipe.PNG)
 ![diamond ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondSmeltRecipe.PNG)
+![apple craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/AppleRecipe.PNG)
 
 ## Installation using Prism Launcher
 
