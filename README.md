@@ -25,7 +25,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 
 ## Images of recipes
 
-### Default true (disable in config menu)
+### Enabled by Default (disable in config menu)
 ![cobweb craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/CobwebRecipe.PNG)
 ![fire craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/FireRecipe.PNG)
 ![grass craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/GrassRecipe.PNG)
@@ -42,7 +42,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 ![diamond ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondOreRecipe.PNG)
 ![diamond ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondSmeltRecipe.PNG)
 
-### Default false (enable in config menu)
+### Disabled by Default (enable in config menu)
 ![apple craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/AppleRecipe.PNG)
 
 ## Installation using Prism Launcher
