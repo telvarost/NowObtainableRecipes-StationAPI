@@ -48,6 +48,6 @@ public class Config {
 
         @ConfigName("Enable Apple Recipe")
         @Comment("Restart required")
-        public static Boolean enableAppleRecipe = false;
+        public static Boolean enableAppleRecipe = true;
     }
 }

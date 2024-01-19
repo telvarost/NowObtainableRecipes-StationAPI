@@ -34,11 +34,11 @@ public class RecipeListener {
             }
 
             if (Config.ConfigFields.enableRedstoneOreRecipe) {
-                CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.REDSTONE_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.redstoneDust);
+                CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.REDSTONE_ORE.asItem(), 1), "XYX", "YYY", "XYX", 'X', BlockBase.STONE, 'Y', ItemBase.redstoneDust);
             }
 
             if (Config.ConfigFields.enableLapisOreRecipe) {
-                CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.LAPIS_LAZULI_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', new ItemInstance(ItemBase.dyePowder, 1, 4));
+                CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.LAPIS_LAZULI_ORE.asItem(), 1), "XYX", "YYY", "XYX", 'X', BlockBase.STONE, 'Y', new ItemInstance(ItemBase.dyePowder, 1, 4));
             }
 
             if (Config.ConfigFields.enableIronOreRecipe) {
@@ -78,7 +78,7 @@ public class RecipeListener {
             }
 
             if (Config.ConfigFields.enableAppleRecipe) {
-                CraftingRegistry.addShapelessRecipe(new ItemInstance(ItemBase.apple, 1), ItemBase.sugar, ItemBase.seeds, BlockBase.SAPLING);
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(ItemBase.apple, 1), ItemBase.sugar, ItemBase.seeds, new ItemInstance(ItemBase.dyePowder, 1, 1), BlockBase.SAPLING);
             }
        }
     }
