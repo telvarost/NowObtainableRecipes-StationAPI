@@ -5,7 +5,7 @@ import net.glasslauncher.mods.api.gcapi.api.*;
 
 public class Config {
 
-    @GConfig(value = "config", visibleName = "NowObtainableRec...")
+    @GConfig(value = "config", visibleName = "NowObtainableRecipes")
     public static ConfigFields config = new ConfigFields();
 
     public static class ConfigFields {
@@ -13,60 +13,60 @@ public class Config {
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableAppleRecipe = true;
+        public Boolean enableAppleRecipe = true;
 
         @ConfigName("Enable Cobweb Recipe")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableCobwebRecipe = true;
+        public Boolean enableCobwebRecipe = true;
 
         @ConfigName("Enable Coal Ore Recipes")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableCoalOreRecipes = true;
+        public Boolean enableCoalOreRecipes = true;
 
         @ConfigName("Enable Redstone Ore Recipes")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableRedstoneOreRecipe = true;
+        public Boolean enableRedstoneOreRecipe = true;
 
         @ConfigName("Enable Lapis Lazuli Ore Recipes")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableLapisOreRecipe = true;
+        public Boolean enableLapisOreRecipe = true;
 
         @ConfigName("Enable Iron Ore Recipe")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableIronOreRecipe = true;
+        public Boolean enableIronOreRecipe = true;
 
         @ConfigName("Enable Gold Ore Recipe")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableGoldOreRecipe = true;
+        public Boolean enableGoldOreRecipe = true;
 
         @ConfigName("Enable Diamond Ore Recipe")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableDiamondOreRecipe = true;
+        public Boolean enableDiamondOreRecipe = true;
 
         @ConfigName("Enable Fire Recipe")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableFireRecipe = true;
+        public Boolean enableFireRecipe = true;
 
         @ConfigName("Enable Grass Recipe")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public static Boolean enableGrassRecipe = true;
+        public Boolean enableGrassRecipe = true;
     }
 }

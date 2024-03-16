@@ -25,59 +25,59 @@ public class RecipeListener {
         Identifier type = event.recipeId;
 
         if (type == RecipeRegisterEvent.Vanilla.CRAFTING_SHAPED.type()) {
-            if (Config.ConfigFields.enableCobwebRecipe) {
+            if (Config.config.enableCobwebRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.COBWEB.asItem(), 1), "X X", " X ", "X X", 'X', ItemBase.string);
             }
 
-            if (Config.ConfigFields.enableCoalOreRecipes) {
+            if (Config.config.enableCoalOreRecipes) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.COAL_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.coal);
             }
 
-            if (Config.ConfigFields.enableRedstoneOreRecipe) {
+            if (Config.config.enableRedstoneOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.REDSTONE_ORE.asItem(), 1), "XYX", "YYY", "XYX", 'X', BlockBase.STONE, 'Y', ItemBase.redstoneDust);
             }
 
-            if (Config.ConfigFields.enableLapisOreRecipe) {
+            if (Config.config.enableLapisOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.LAPIS_LAZULI_ORE.asItem(), 1), "XYX", "YYY", "XYX", 'X', BlockBase.STONE, 'Y', new ItemInstance(ItemBase.dyePowder, 1, 4));
             }
 
-            if (Config.ConfigFields.enableIronOreRecipe) {
+            if (Config.config.enableIronOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.IRON_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.ironIngot);
             }
 
-            if (Config.ConfigFields.enableGoldOreRecipe) {
+            if (Config.config.enableGoldOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.GOLD_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.goldIngot);
             }
 
-            if (Config.ConfigFields.enableDiamondOreRecipe) {
+            if (Config.config.enableDiamondOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.DIAMOND_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.diamond);
             }
         }
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
-            if (Config.ConfigFields.enableCoalOreRecipes) {
+            if (Config.config.enableCoalOreRecipes) {
                 SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.COAL_ORE.asItem(), 1), new ItemInstance(ItemBase.coal, 1));
             }
 
-            if (Config.ConfigFields.enableRedstoneOreRecipe) {
+            if (Config.config.enableRedstoneOreRecipe) {
                 SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.REDSTONE_ORE.asItem(), 1), new ItemInstance(ItemBase.redstoneDust, 1));
             }
 
-            if (Config.ConfigFields.enableLapisOreRecipe) {
+            if (Config.config.enableLapisOreRecipe) {
                 SmeltingRegistry.addSmeltingRecipe(new ItemInstance(BlockBase.LAPIS_LAZULI_ORE.asItem(), 1), new ItemInstance(ItemBase.dyePowder, 1, 4));
             }
         }
 
         if (type == RecipeRegisterEvent.Vanilla.CRAFTING_SHAPELESS.type()) {
-            if (Config.ConfigFields.enableFireRecipe) {
+            if (Config.config.enableFireRecipe) {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.FIRE.asItem(), 3), ItemBase.flintAndSteel);
             }
 
-            if (Config.ConfigFields.enableGrassRecipe) {
+            if (Config.config.enableGrassRecipe) {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.GRASS.asItem(), 1), BlockBase.DIRT, ItemBase.seeds);
             }
 
-            if (Config.ConfigFields.enableAppleRecipe) {
+            if (Config.config.enableAppleRecipe) {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(ItemBase.apple, 1), ItemBase.sugar, ItemBase.seeds, new ItemInstance(ItemBase.dyePowder, 1, 1), BlockBase.SAPLING);
             }
        }
