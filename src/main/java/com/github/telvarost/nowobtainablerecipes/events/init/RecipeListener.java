@@ -69,6 +69,10 @@ public class RecipeListener {
         }
 
         if (type == RecipeRegisterEvent.Vanilla.CRAFTING_SHAPELESS.type()) {
+            if (Config.config.enableDeadBushRecipe) {
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.DEADBUSH.asItem(), 1), BlockBase.SAPLING, BlockBase.FIRE);
+            }
+
             if (Config.config.enableFireRecipe) {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.FIRE.asItem(), 3), ItemBase.flintAndSteel);
             }

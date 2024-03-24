@@ -22,8 +22,12 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Smeltable ores: coal, redstone, and lapis (iron, gold, and diamond already in game)
 * Craftable fire (this also thereby allows crafting chainmail)
 * Craftable apples
+* Craftable dead bushes
 
 ## Images of recipes
+
+### v1.4.0 Additional Recipe
+![dead bush craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DeadBushRecipe.PNG)
 
 ### v1.2.0 Recipes
 ![cobweb craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/CobwebRecipe.PNG)

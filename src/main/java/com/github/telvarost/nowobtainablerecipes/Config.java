@@ -27,6 +27,12 @@ public class Config {
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
         public Boolean enableCoalOreRecipes = true;
 
+        @ConfigName("Enable Dead Bush Recipe")
+        @Comment("Restart required")
+        @MultiplayerSynced
+        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        public Boolean enableDeadBushRecipe = true;
+
         @ConfigName("Enable Redstone Ore Recipes")
         @Comment("Restart required")
         @MultiplayerSynced
