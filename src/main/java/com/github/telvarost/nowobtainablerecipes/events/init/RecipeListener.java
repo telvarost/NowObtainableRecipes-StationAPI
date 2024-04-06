@@ -69,6 +69,10 @@ public class RecipeListener {
         }
 
         if (type == RecipeRegisterEvent.Vanilla.CRAFTING_SHAPELESS.type()) {
+            if (Config.config.enableAppleRecipe) {
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(ItemBase.apple, 1), ItemBase.sugar, ItemBase.seeds, new ItemInstance(ItemBase.dyePowder, 1, 1), BlockBase.SAPLING);
+            }
+
             if (Config.config.enableDeadBushRecipe) {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.DEADBUSH.asItem(), 1), BlockBase.SAPLING, BlockBase.FIRE);
             }
@@ -81,8 +85,8 @@ public class RecipeListener {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.GRASS.asItem(), 1), BlockBase.DIRT, ItemBase.seeds);
             }
 
-            if (Config.config.enableAppleRecipe) {
-                CraftingRegistry.addShapelessRecipe(new ItemInstance(ItemBase.apple, 1), ItemBase.sugar, ItemBase.seeds, new ItemInstance(ItemBase.dyePowder, 1, 1), BlockBase.SAPLING);
+            if (Config.config.enableIceRecipe) {
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.ICE.asItem(), 1), ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK);
             }
        }
     }

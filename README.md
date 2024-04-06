@@ -23,8 +23,12 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Craftable fire (this also thereby allows crafting chainmail)
 * Craftable apples
 * Craftable dead bushes
+* Craftable ice blocks
 
 ## Images of recipes
+
+### v1.5.0 Additional Recipe
+![ice craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IceRecipe.PNG)
 
 ### v1.4.0 Additional Recipe
 ![dead bush craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DeadBushRecipe.PNG)
