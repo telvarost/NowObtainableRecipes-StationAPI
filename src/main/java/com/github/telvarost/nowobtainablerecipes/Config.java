@@ -75,10 +75,10 @@ public class Config {
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
         public Boolean enableGrassRecipe = true;
 
-        @ConfigName("Enable Ice Recipe")
+        @ConfigName("Enable Ice Recipes")
         @Comment("Restart required")
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
-        public Boolean enableIceRecipe = true;
+        public Boolean enableIceRecipes = true;
     }
 }

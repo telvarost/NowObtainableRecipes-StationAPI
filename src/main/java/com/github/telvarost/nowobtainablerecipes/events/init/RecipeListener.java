@@ -85,8 +85,10 @@ public class RecipeListener {
                 CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.GRASS.asItem(), 1), BlockBase.DIRT, ItemBase.seeds);
             }
 
-            if (Config.config.enableIceRecipe) {
-                CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.ICE.asItem(), 1), ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK);
+            if (Config.config.enableIceRecipes) {
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.ICE.asItem(), 1), ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK);
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.ICE.asItem(), 2), ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK, ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK);
+                CraftingRegistry.addShapelessRecipe(new ItemInstance(BlockBase.ICE.asItem(), 3), ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK, ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK, ItemBase.waterBucket, BlockBase.SNOW_BLOCK, BlockBase.SNOW_BLOCK);
             }
        }
     }

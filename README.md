@@ -27,6 +27,11 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 
 ## Images of recipes
 
+### v1.5.1 Changes To Ice Recipe
+![ice craft 1 recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IceRecipeV2_1.PNG)
+![ice craft 2 recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IceRecipeV2_2.PNG)
+![ice craft 3 recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IceRecipeV2_3.PNG)
+
 ### v1.5.0 Additional Recipe
 ![ice craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IceRecipe.PNG)
 
