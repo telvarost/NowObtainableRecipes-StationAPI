@@ -25,7 +25,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Craftable dead bushes
 * Craftable ice blocks
 * Craftable sponge blocks
-  * Soaks up a 5x5 cube of water, disable in config
+  * Soaks up a 5x5 cube of water, disable/enable in config
     * If GoldenTweaks is installed disable/enable there instead
 
 ## Images of recipes
