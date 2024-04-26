@@ -52,6 +52,10 @@ public class RecipeListener {
             if (Config.config.enableDiamondOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.DIAMOND_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', BlockBase.STONE, 'Y', ItemBase.diamond);
             }
+
+            if (Config.config.enableSpongeRecipe) {
+                CraftingRegistry.addShapedRecipe(new ItemInstance(BlockBase.SPONGE.asItem(), 1), "XYX", "YZY", "XYX", 'X', ItemBase.slimeball, 'Y', new ItemInstance(BlockBase.WOOL, 1, 4), 'Z', ItemBase.bucket);
+            }
         }
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {

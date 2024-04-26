@@ -24,8 +24,14 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 * Craftable apples
 * Craftable dead bushes
 * Craftable ice blocks
+* Craftable sponge blocks
+  * Soaks up a 5x5 cube of water, disable in config
+    * If GoldenTweaks is installed disable/enable there instead
 
 ## Images of recipes
+
+### v1.6.0 Additional Recipe
+![sponge craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/SpongeRecipe.PNG)
 
 ### v1.5.1 Changes To Ice Recipe
 ![ice craft 1 recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IceRecipeV2_1.PNG)

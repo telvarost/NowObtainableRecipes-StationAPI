@@ -80,5 +80,17 @@ public class Config {
         @MultiplayerSynced
         @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
         public Boolean enableIceRecipes = true;
+
+        @ConfigName("Enable Sponge Recipe")
+        @Comment("Restart required")
+        @MultiplayerSynced
+        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        public Boolean enableSpongeRecipe = true;
+
+        @ConfigName("Sponge Soaks Up Water")
+        @Comment("Will soak up a 5x5 water cube when placed")
+        @MultiplayerSynced
+        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        public Boolean enableSpongeSoaksUpWater = true;
     }
 }
