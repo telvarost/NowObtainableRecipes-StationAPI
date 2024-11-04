@@ -1,96 +1,109 @@
 package com.github.telvarost.nowobtainablerecipes;
 
-import blue.endless.jankson.Comment;
-import net.glasslauncher.mods.api.gcapi.api.*;
+import net.glasslauncher.mods.gcapi3.api.*;
 
 public class Config {
 
-    @GConfig(value = "config", visibleName = "NowObtainableRecipes")
+    @ConfigRoot(value = "config", visibleName = "NowObtainableRecipes")
     public static ConfigFields config = new ConfigFields();
 
     public static class ConfigFields {
-        @ConfigName("Enable Apple Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Apple Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableAppleRecipe = true;
 
-        @ConfigName("Enable Cobweb Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Cobweb Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableCobwebRecipe = true;
 
-        @ConfigName("Enable Coal Ore Recipes")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Coal Ore Recipes",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableCoalOreRecipes = true;
 
-        @ConfigName("Enable Dead Bush Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Dead Bush Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableDeadBushRecipe = true;
 
-        @ConfigName("Enable Redstone Ore Recipes")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Redstone Ore Recipes",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableRedstoneOreRecipe = true;
 
-        @ConfigName("Enable Lapis Lazuli Ore Recipes")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Lapis Lazuli Ore Recipes",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableLapisOreRecipe = true;
 
-        @ConfigName("Enable Iron Ore Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Iron Ore Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableIronOreRecipe = true;
 
-        @ConfigName("Enable Gold Ore Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Gold Ore Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableGoldOreRecipe = true;
 
-        @ConfigName("Enable Diamond Ore Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Diamond Ore Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableDiamondOreRecipe = true;
 
-        @ConfigName("Enable Fire Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Fire Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableFireRecipe = true;
 
-        @ConfigName("Enable Grass Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Grass Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableGrassRecipe = true;
 
-        @ConfigName("Enable Ice Recipes")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Ice Recipes",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableIceRecipes = true;
 
-        @ConfigName("Enable Sponge Recipe")
-        @Comment("Restart required")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Enable Sponge Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
         public Boolean enableSpongeRecipe = true;
 
-        @ConfigName("Sponge Soaks Up Water")
-        @Comment("Will soak up a 5x5 water cube when placed")
-        @MultiplayerSynced
-        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        @ConfigEntry(
+                name = "Sponge Soaks Up Water",
+                description = "Will soak up a 5x5 water cube when placed",
+                multiplayerSynced = true
+        )
         public Boolean enableSpongeSoaksUpWater = true;
     }
 }
