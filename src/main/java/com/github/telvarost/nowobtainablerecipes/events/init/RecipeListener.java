@@ -48,6 +48,10 @@ public class RecipeListener {
             if (Config.config.enableSpongeRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.SPONGE.asItem(), 1), "XYX", "YZY", "XYX", 'X', Item.SLIMEBALL, 'Y', new ItemStack(Block.WOOL, 1, 4), 'Z', Item.BUCKET);
             }
+
+            if (Config.config.enableSpongeRecipe) {
+                CraftingRegistry.addShapedRecipe(new ItemStack(Block.NETHER_PORTAL.asItem(), 1), "XXX", "XYX", "XXX", 'X', Block.OBSIDIAN, 'Y', Block.FIRE);
+            }
         }
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
