@@ -30,6 +30,10 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 
 ## Images of recipes
 
+### v1.8.0 Additional Recipes
+![double stone slab craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DoubleStoneSlabRecipe.PNG)
+![stone slab craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/StoneSlabRecipe.PNG)
+
 ### v1.6.0 Additional Recipe
 ![sponge craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/SpongeRecipe.PNG)
 

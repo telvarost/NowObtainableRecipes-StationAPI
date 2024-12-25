@@ -48,6 +48,10 @@ public class RecipeListener {
             if (Config.config.enableSpongeRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.SPONGE.asItem(), 1), "XYX", "YZY", "XYX", 'X', Item.SLIMEBALL, 'Y', new ItemStack(Block.WOOL, 1, 4), 'Z', Item.BUCKET);
             }
+
+            if (Config.config.enableDoubleStoneSlabRecipe) {
+                CraftingRegistry.addShapedRecipe(new ItemStack(Block.DOUBLE_SLAB.asItem(), 1), "X", "X", 'X', Block.SLAB.asItem());
+            }
         }
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
@@ -85,6 +89,10 @@ public class RecipeListener {
                 CraftingRegistry.addShapelessRecipe(new ItemStack(Block.ICE.asItem(), 1), Item.WATER_BUCKET, Block.SNOW_BLOCK, Block.SNOW_BLOCK);
                 CraftingRegistry.addShapelessRecipe(new ItemStack(Block.ICE.asItem(), 2), Item.WATER_BUCKET, Block.SNOW_BLOCK, Block.SNOW_BLOCK, Item.WATER_BUCKET, Block.SNOW_BLOCK, Block.SNOW_BLOCK);
                 CraftingRegistry.addShapelessRecipe(new ItemStack(Block.ICE.asItem(), 3), Item.WATER_BUCKET, Block.SNOW_BLOCK, Block.SNOW_BLOCK, Item.WATER_BUCKET, Block.SNOW_BLOCK, Block.SNOW_BLOCK, Item.WATER_BUCKET, Block.SNOW_BLOCK, Block.SNOW_BLOCK);
+            }
+
+            if (Config.config.enableDoubleStoneSlabRecipe) {
+                CraftingRegistry.addShapelessRecipe(new ItemStack(Block.SLAB.asItem(), 2), Block.DOUBLE_SLAB.asItem());
             }
        }
     }

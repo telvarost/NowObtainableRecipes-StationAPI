@@ -37,6 +37,14 @@ public class Config {
         public Boolean enableDeadBushRecipe = true;
 
         @ConfigEntry(
+                name = "Enable Double Stone Slab Recipes",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
+        @ValueOnVanillaServer(booleanValue = TriBoolean.FALSE)
+        public Boolean enableDoubleStoneSlabRecipe = true;
+
+        @ConfigEntry(
                 name = "Enable Redstone Ore Recipes",
                 description = "Restart required",
                 multiplayerSynced = true
