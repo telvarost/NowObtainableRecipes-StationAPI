@@ -21,7 +21,7 @@ public class RecipeListener {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.COBWEB.asItem(), 1), "X X", " X ", "X X", 'X', Item.STRING);
             }
 
-            if (Config.config.enableCoalOreRecipes) {
+            if (Config.config.enableCoalOreRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.COAL_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', Block.STONE, 'Y', Item.COAL);
             }
 
@@ -55,16 +55,16 @@ public class RecipeListener {
         }
 
         if (type == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
-            if (Config.config.enableCoalOreRecipes) {
+            if (Config.config.enableCoalOreFurnaceRecipe) {
                 SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.COAL_ORE.asItem(), 1), new ItemStack(Item.COAL, 1));
             }
 
-            if (Config.config.enableRedstoneOreRecipe) {
-                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.REDSTONE_ORE.asItem(), 1), new ItemStack(Item.REDSTONE, 1));
+            if (Config.config.enableRedstoneOreFurnaceRecipe) {
+                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.REDSTONE_ORE.asItem(), 1), new ItemStack(Item.REDSTONE, 5));
             }
 
-            if (Config.config.enableLapisOreRecipe) {
-                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.LAPIS_ORE.asItem(), 1), new ItemStack(Item.DYE, 1, 4));
+            if (Config.config.enableLapisOreFurnaceRecipe) {
+                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.LAPIS_ORE.asItem(), 1), new ItemStack(Item.DYE, 5, 4));
             }
         }
 

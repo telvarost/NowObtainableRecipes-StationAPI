@@ -23,11 +23,18 @@ public class Config {
         public Boolean enableCobwebRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Coal Ore Recipes",
+                name = "Enable Coal Ore Recipe",
                 description = "Restart required",
                 multiplayerSynced = true
         )
-        public Boolean enableCoalOreRecipes = true;
+        public Boolean enableCoalOreRecipe = true;
+
+        @ConfigEntry(
+                name = "Enable Coal Ore Furnace Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
+        public Boolean enableCoalOreFurnaceRecipe = true;
 
         @ConfigEntry(
                 name = "Enable Dead Bush Recipe",
@@ -45,18 +52,32 @@ public class Config {
         public Boolean enableDoubleStoneSlabRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Redstone Ore Recipes",
+                name = "Enable Redstone Ore Recipe",
                 description = "Restart required",
                 multiplayerSynced = true
         )
         public Boolean enableRedstoneOreRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Lapis Lazuli Ore Recipes",
+                name = "Enable Redstone Ore Furnace Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
+        public Boolean enableRedstoneOreFurnaceRecipe = true;
+
+        @ConfigEntry(
+                name = "Enable Lapis Lazuli Ore Recipe",
                 description = "Restart required",
                 multiplayerSynced = true
         )
         public Boolean enableLapisOreRecipe = true;
+
+        @ConfigEntry(
+                name = "Enable Lapis Lazuli Ore Furnace Recipe",
+                description = "Restart required",
+                multiplayerSynced = true
+        )
+        public Boolean enableLapisOreFurnaceRecipe = true;
 
         @ConfigEntry(
                 name = "Enable Iron Ore Recipe",
