@@ -32,6 +32,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 ## Images of recipes
 
 ### v1.9.1 Updated Recipes
+Config now available to control output amount for these two recipes:
 ![redstone ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneSmeltRecipe.PNG)
 ![lapis ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisSmeltRecipe.PNG)
 
