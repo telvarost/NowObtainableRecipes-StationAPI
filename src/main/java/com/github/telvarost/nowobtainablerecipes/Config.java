@@ -23,11 +23,11 @@ public class Config {
         public Boolean enableCobwebRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Coal Ore Recipe",
+                name = "Enable Coal Ore Crafting Recipe",
                 description = "Restart required",
                 multiplayerSynced = true
         )
-        public Boolean enableCoalOreRecipe = true;
+        public Boolean enableCoalOreCraftingRecipe = true;
 
         @ConfigEntry(
                 name = "Enable Coal Ore Furnace Recipe",
@@ -52,32 +52,34 @@ public class Config {
         public Boolean enableDoubleStoneSlabRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Redstone Ore Recipe",
+                name = "Enable Redstone Ore Crafting Recipe",
                 description = "Restart required",
                 multiplayerSynced = true
         )
-        public Boolean enableRedstoneOreRecipe = true;
+        public Boolean enableRedstoneOreCraftingRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Redstone Ore Furnace Recipe",
-                description = "Restart required",
+                name = "Redstone Ore Furnace Recipe Output",
+                description = "Restart required; Use 0 to Disable",
+                maxLength = 8,
                 multiplayerSynced = true
         )
-        public Boolean enableRedstoneOreFurnaceRecipe = true;
+        public Integer redstoneOreFurnaceRecipeOutput = 4;
 
         @ConfigEntry(
-                name = "Enable Lapis Lazuli Ore Recipe",
+                name = "Enable Lapis Lazuli Ore Crafting Recipe",
                 description = "Restart required",
                 multiplayerSynced = true
         )
-        public Boolean enableLapisOreRecipe = true;
+        public Boolean enableLapisOreCraftingRecipe = true;
 
         @ConfigEntry(
-                name = "Enable Lapis Lazuli Ore Furnace Recipe",
-                description = "Restart required",
+                name = "Lapis Lazuli Ore Furnace Recipe Output",
+                description = "Restart required; Use 0 to Disable",
+                maxLength = 8,
                 multiplayerSynced = true
         )
-        public Boolean enableLapisOreFurnaceRecipe = true;
+        public Integer lapisOreFurnaceRecipeOutput = 4;
 
         @ConfigEntry(
                 name = "Enable Iron Ore Recipe",

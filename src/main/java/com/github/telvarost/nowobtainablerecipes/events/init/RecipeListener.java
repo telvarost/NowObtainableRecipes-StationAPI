@@ -21,15 +21,15 @@ public class RecipeListener {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.COBWEB.asItem(), 1), "X X", " X ", "X X", 'X', Item.STRING);
             }
 
-            if (Config.config.enableCoalOreRecipe) {
+            if (Config.config.enableCoalOreCraftingRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.COAL_ORE.asItem(), 1), "XXX", "XYX", "XXX", 'X', Block.STONE, 'Y', Item.COAL);
             }
 
-            if (Config.config.enableRedstoneOreRecipe) {
+            if (Config.config.enableRedstoneOreCraftingRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.REDSTONE_ORE.asItem(), 1), "XYX", "YYY", "XYX", 'X', Block.STONE, 'Y', Item.REDSTONE);
             }
 
-            if (Config.config.enableLapisOreRecipe) {
+            if (Config.config.enableLapisOreCraftingRecipe) {
                 CraftingRegistry.addShapedRecipe(new ItemStack(Block.LAPIS_ORE.asItem(), 1), "XYX", "YYY", "XYX", 'X', Block.STONE, 'Y', new ItemStack(Item.DYE, 1, 4));
             }
 
@@ -59,12 +59,12 @@ public class RecipeListener {
                 SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.COAL_ORE.asItem(), 1), new ItemStack(Item.COAL, 1));
             }
 
-            if (Config.config.enableRedstoneOreFurnaceRecipe) {
-                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.REDSTONE_ORE.asItem(), 1), new ItemStack(Item.REDSTONE, 5));
+            if (0 < Config.config.redstoneOreFurnaceRecipeOutput) {
+                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.REDSTONE_ORE.asItem(), 1), new ItemStack(Item.REDSTONE, Config.config.redstoneOreFurnaceRecipeOutput));
             }
 
-            if (Config.config.enableLapisOreFurnaceRecipe) {
-                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.LAPIS_ORE.asItem(), 1), new ItemStack(Item.DYE, 5, 4));
+            if (0 < Config.config.lapisOreFurnaceRecipeOutput) {
+                SmeltingRegistry.addSmeltingRecipe(new ItemStack(Block.LAPIS_ORE.asItem(), 1), new ItemStack(Item.DYE, Config.config.lapisOreFurnaceRecipeOutput, 4));
             }
         }
 
