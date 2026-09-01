@@ -31,6 +31,10 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 
 ## Images of recipes
 
+### v1.9.1 Updated Recipes
+![redstone ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneSmeltRecipe.PNG)
+![lapis ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisSmeltRecipe.PNG)
+
 ### v1.8.0 Additional Recipes
 ![double stone slab craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DoubleStoneSlabRecipe.PNG)
 ![stone slab craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/StoneSlabRecipe.PNG)
@@ -58,9 +62,7 @@ A StationAPI mod for Minecraft Beta 1.7.3 that adds some modern Minecraft crafti
 ![iron ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/IronOreRecipe.PNG)
 ![gold ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/GoldOreRecipe.PNG)
 ![redstone ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneOreRecipeV2.PNG)
-![redstone ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/RedstoneSmeltRecipe.PNG)
 ![lapis ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisOreRecipeV2.PNG)
-![lapis ore smelt recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/LapisSmeltRecipe.PNG)
 ![diamond ore craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/DiamondOreRecipe.PNG)
 ![apple craft recipe](https://github.com/telvarost/NowObtainableRecipes-StationAPI/blob/main/images/AppleRecipeV2.PNG)
 
